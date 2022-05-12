@@ -1,0 +1,28 @@
+{
+  "name": "react-next-storyblok-boilerplate",
+  "version": "1.0.0",
+  "description": "Next.js Storyblok Boilerplate",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "^4.5.7",
+    "@sendgrid/mail": "^7.6.2",
+    "@storyblok/storyblok-editable": "^1.0.0",
+    "axios": "^0.21.1",
+    "formik": "^2.2.9",
+    "mapbox-gl": "^2.7.1",
+    "next": "^11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-image-mapper": "^0.0.15",
+    "react-map-gl": "^7.0.10",
+    "react-markdown": "^8.0.0",
+    "simple-react-lightbox": "^3.6.9-0",
+    "storyblok-js-client": "^4.0.7"
+  }
+}
