@@ -10,6 +10,16 @@ const Floor = () => {
     router.push(`/lokal/lokal-${room}`);
   };
 
+  const handleChangeFloor = (direction) => {
+    const floor = Number(currentFloor.replace('pietro-',''));
+    if (direction === 'up') {
+      router.push(`/pietro-${floor+1}`);
+    }
+    if (direction === 'down') {
+      router.push(`/pietro-${floor-1}`);
+    }
+  };
+
   return (
     <div>
       <Navbar />
@@ -171,6 +181,18 @@ const Floor = () => {
           )}
         </div>
       </main>
+      <div className="floor-up-down">
+        {currentFloor !== "pietro-6" && (
+          <div className="icon icon-up" onClick={() => handleChangeFloor('up')}>
+            <img src="/icon-up.png" alt="" />
+          </div>
+        )}
+        {currentFloor !== "pietro-0" && (
+          <div className="icon icon-down" onClick={() => handleChangeFloor('down')}>
+            <img src="/icon-up.png" alt="" style={{ transform: 'rotate(-180deg)' }}/>
+          </div>
+        )}
+      </div>
       <Footer fixed gradient />
     </div>
   );

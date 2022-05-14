@@ -1496,3 +1496,32 @@ main ul {
 .form-row .error-red {
   border-color: #e40000;
 }
+
+.floor-up-down {
+  position: fixed;
+  right: 30px;
+  bottom: 10%;
+}
+
+.floor-up-down .icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
+.floor-up-down .icon {
+  cursor: pointer;
+}
+
+.floor-up-down .icon img {
+  max-width: 90%;
+}
+
+.floor-up-down .icon-up {
+  margin-bottom: 10px;
+}
