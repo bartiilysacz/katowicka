@@ -1328,6 +1328,19 @@ main ul {
   height: 35.5%;
   width: 5.9%;
 }
+.floor-main-area.g4::before {
+  content: '';
+  width: 107%;
+  height: 56.2%;
+  background: rgba(0, 0, 0, 0.3);
+  left: -107%;
+  position: absolute;
+  transition: .3s;
+}
+
+.floor-main-area.g4:hover::before {
+  background: rgba(0, 0, 0, 0.8);
+}
 .floor-main-area.g5 {
   top: 14.4%;
   left: 50.5%;
@@ -1396,7 +1409,21 @@ main ul {
   left: 79.8%;
   z-index: 9;
   height: 24.8%;
-  width: 9%;
+  width: 8.4%;
+}
+.floor-main-area.g14::before {
+  content: '';
+  width: 35%;
+  height: 55%;
+  background: rgba(0, 0, 0, 0.3);
+  right: 0;
+  position: absolute;
+  top: -55%;
+  transition: .3s;
+}
+
+.floor-main-area.g14:hover::before {
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .form-row {
