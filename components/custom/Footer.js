@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = ({ hidden, fixed }) => {
+const Footer = ({ hidden, fixed, gradient }) => {
   if (hidden) {
     return null;
   }

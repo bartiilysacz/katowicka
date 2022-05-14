@@ -171,7 +171,7 @@ const Floor = () => {
           )}
         </div>
       </main>
-      <Footer fixed />
+      <Footer fixed gradient />
     </div>
   );
 };
