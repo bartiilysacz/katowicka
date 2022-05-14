@@ -25,6 +25,9 @@ header {
 
 .hero-wrapper img {
   width: 100%;
+
+  min-height: 100vh;
+  object-fit: cover;
 }
 
 .navbar {
@@ -96,9 +99,9 @@ header {
 
 .floor-5 {
   position: absolute;
-  left: 19.5%;
-  top: 28.4%;
-  right: 29.7%;
+  left: 18.5%;
+  top: 28.6%;
+  right: 28.7%;
   height: 5.5%;
   transform: rotate(-0.6deg);
   cursor: pointer;
@@ -130,9 +133,9 @@ header {
 
 .floor-4 {
   position: absolute;
-  left: 19.5%;
-  top: 35.6%;
-  right: 29.7%;
+  left: 18.5%;
+  top: 35.5%;
+  right: 28.7%;
   height: 5.5%;
   transform: rotate(-0.6deg);
   cursor: pointer;
@@ -164,9 +167,9 @@ header {
 
 .floor-3 {
   position: absolute;
-  left: 19.5%;
-  top: 42.6%;
-  right: 29.7%;
+  left: 18.5%;
+  top: 42.7%;
+  right: 28.7%;
   height: 5.5%;
   transform: rotate(-0.6deg);
   cursor: pointer;
@@ -198,9 +201,9 @@ header {
 
 .floor-2 {
   position: absolute;
-  left: 19.5%;
+  left: 18.5%;
   top: 49.9%;
-  right: 29.7%;
+  right: 28.7%;
   height: 5.5%;
   transform: rotate(-0.6deg);
   cursor: pointer;
@@ -232,9 +235,9 @@ header {
 
 .floor-1 {
   position: absolute;
-  left: 19.5%;
-  top: 56.9%;
-  right: 29.7%;
+  left: 18.5%;
+  top: 56.7%;
+  right: 28.7%;
   height: 5.5%;
   transform: rotate(-0.6deg);
   cursor: pointer;
@@ -266,9 +269,9 @@ header {
 
 .floor-0 {
   position: absolute;
-  left: 19.5%;
-  top: 63.7%;
-  right: 29.7%;
+  left: 18.5%;
+  top: 63.9%;
+  right: 28.7%;
   height: 5.5%;
   transform: rotate(-0.6deg);
   cursor: pointer;
@@ -300,9 +303,9 @@ header {
 
 .floor-6 {
   position: absolute;
-  left: 19.5%;
-  top: 21.5%;
-  right: 29.7%;
+  left: 18.5%;
+  top: 21.4%;
+  right: 28.7%;
   height: 5.5%;
   transform: rotate(-0.6deg);
   cursor: pointer;
