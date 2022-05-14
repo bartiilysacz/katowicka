@@ -737,6 +737,18 @@ main ul {
   height: 30.5%;
   width: 6%;
 }
+.floor-main-area.a4::before {
+  content: '';
+  width: 107%;
+  height: 56.2%;
+  background: rgba(0, 0, 0, 0.3);
+  left: -107%;
+  position: absolute;
+  transition: .3s;
+}
+.floor-main-area.a4:hover::before {
+  background: rgba(0, 0, 0, 0.8);
+}
 .floor-main-area.a5 {
   top: 13%;
   left: 50.5%;
@@ -781,24 +793,24 @@ main ul {
 }
 .floor-main-area.a11 {
   top: 51.9%;
-  left: 47.5%;
+  left: 44.5%;
   z-index: 9;
   height: 22.5%;
-  width: 9%;
+  width: 12%;
 }
 .floor-main-area.a12 {
   top: 51.9%;
   left: 56.5%;
   z-index: 9;
   height: 22.5%;
-  width: 9%;
+  width: 11.7%;
 }
 .floor-main-area.a13 {
   top: 51.9%;
-  left: 71.1%;
+  left: 68.1%;
   z-index: 9;
   height: 22.5%;
-  width: 9%;
+  width: 12%;
 }
 .floor-main-area.a14 {
   top: 51.9%;
@@ -876,21 +888,21 @@ main ul {
   left: 19.1%;
   z-index: 9;
   height: 22.5%;
-  width: 8.9%;
+  width: 15.1%;
 }
 .floor-main-area.b11 {
   top: 56.9%;
-  left: 49.5%;
+  left: 46.5%;
   z-index: 9;
   height: 22.5%;
-  width: 9.4%;
+  width: 12.4%;
 }
 .floor-main-area.b12 {
   top: 56.9%;
   left: 59.1%;
   z-index: 9;
   height: 22.5%;
-  width: 9%;
+  width: 12%;
 }
 .floor-main-area.b13 {
   top: 56.9%;
@@ -906,7 +918,20 @@ main ul {
   height: 22.5%;
   width: 10%;
 }
+.floor-main-area.b14::before {
+  content: '';
+  width: 38.4%;
+  height: 55%;
+  background: rgba(0, 0, 0, 0.3);
+  right: 0;
+  position: absolute;
+  top: -55%;
+  transition: .3s;
+}
 
+.floor-main-area.b14:hover::before {
+  background: rgba(0, 0, 0, 0.8);
+}
 .floor-main-area.c1 {
   top: 15.8%;
   left: 6.1%;
