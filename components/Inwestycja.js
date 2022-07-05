@@ -34,7 +34,7 @@ const Kontakt = () => {
             <h3>Budynek ma 7 kondygnacji.</h3>
             <p>
               W ofercie są apartamenty o powierzchni od 17m2 do 36m2. . Lokale
-              usytuowane na parterze mają również balkony. W cały budynku
+              usytuowane na parterze mają również balkony.<br /> W cały budynku
               znajdziemy:
               <ul>
                 <li>7 apartamentów - 17 m2</li>
