@@ -748,14 +748,26 @@ main ul {
 }
 .floor-main-area.a4::before {
   content: "";
-  width: 107%;
+  width: 105%;
   height: 56.2%;
   background: rgba(0, 0, 0, 0.3);
-  left: -107%;
+  left: -105%;
   position: absolute;
   transition: 0.3s;
 }
 .floor-main-area.a4:hover::before {
+  background: rgba(0, 0, 0, 0.8);
+}
+.floor-main-area.a4::after {
+  content: "";
+  width: 9%;
+  height: 32.2%;
+  background: rgba(0, 0, 0, 0.3);
+  left: -114%;
+  position: absolute;
+  transition: 0.3s;
+}
+.floor-main-area.a4:hover::after {
   background: rgba(0, 0, 0, 0.8);
 }
 .floor-main-area.a5 {
@@ -795,12 +807,12 @@ main ul {
 }
 .floor-main-area.a9::before {
   content: "";
-  width: 23%;
-  height: 26%;
+  width: 24.5%;
+  height: 26.5%;
   background: white;
   right: 0;
   position: absolute;
-  top: 1%;
+  top: 1.5%;
   transition: 0.3s;
 }
 .floor-main-area.a10 {
@@ -851,14 +863,14 @@ main ul {
   left: 19.1%;
   z-index: 9;
   height: 31.5%;
-  width: 8.8%;
+  width: 9%;
 }
 .floor-main-area.b3 {
   top: 16%;
   left: 28%;
   z-index: 9;
   height: 31.5%;
-  width: 6.1%;
+  width: 6.5%;
 }
 .floor-main-area.b4 {
   top: 16.5%;
@@ -878,6 +890,18 @@ main ul {
 }
 
 .floor-main-area.b4:hover::before {
+  background: rgba(0, 0, 0, 0.8);
+}
+.floor-main-area.b4::after {
+  content: "";
+  width: 9%;
+  height: 32.2%;
+  background: rgba(0, 0, 0, 0.3);
+  left: -115%;
+  position: absolute;
+  transition: 0.3s;
+}
+.floor-main-area.b4:hover::after {
   background: rgba(0, 0, 0, 0.8);
 }
 .floor-main-area.b5 {
@@ -906,10 +930,10 @@ main ul {
   left: 80.1%;
   z-index: 9;
   height: 31.5%;
-  width: 7%;
+  width: 6.5%;
 }
 .floor-main-area.b9 {
-  top: 47.6%;
+  top: 48%;
   left: 6.1%;
   z-index: 9;
   height: 31.5%;
@@ -918,11 +942,11 @@ main ul {
 .floor-main-area.b9::before {
   content: "";
   width: 23%;
-  height: 26%;
+  height: 27%;
   background: white;
   right: 0;
   position: absolute;
-  top: 1%;
+  top: 0;
   transition: 0.3s;
 }
 .floor-main-area.b10 {
@@ -951,7 +975,7 @@ main ul {
   left: 71.1%;
   z-index: 9;
   height: 22.5%;
-  width: 12.2%;
+  width: 12.4%;
 }
 .floor-main-area.b14 {
   top: 56.9%;
@@ -999,7 +1023,7 @@ main ul {
   top: 16.5%;
   left: 47%;
   z-index: 9;
-  height: 31.6%;
+  height: 32.6%;
   width: 6.2%;
 }
 .floor-main-area.c4::before {
@@ -1015,12 +1039,25 @@ main ul {
 .floor-main-area.c4:hover::before {
   background: rgba(0, 0, 0, 0.8);
 }
+.floor-main-area.c4::after {
+  content: "";
+  width: 5%;
+  height: 33.2%;
+  background: rgba(0, 0, 0, 0.3);
+  left: -111%;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.floor-main-area.c4:hover::after {
+  background: rgba(0, 0, 0, 0.8);
+}
 .floor-main-area.c5 {
   top: 17%;
   left: 52.9%;
   z-index: 9;
   height: 32%;
-  width: 9.4%;
+  width: 9.5%;
 }
 .floor-main-area.c6 {
   top: 17%;
@@ -1044,20 +1081,20 @@ main ul {
   width: 7%;
 }
 .floor-main-area.c9 {
-  top: 48.6%;
+  top: 49.2%;
   left: 6.1%;
   z-index: 9;
-  height: 32.5%;
+  height: 32.2%;
   width: 12.3%;
 }
 .floor-main-area.c9::before {
   content: "";
-  width: 23%;
-  height: 26%;
+  width: 22%;
+  height: 27.5%;
   background: white;
   right: 0;
   position: absolute;
-  top: 1%;
+  top: 0.1%;
   transition: 0.3s;
 }
 .floor-main-area.c10 {
@@ -1105,12 +1142,15 @@ main ul {
   top: -55%;
   transition: 0.3s;
 }
+.floor-main-area.c14:hover:before {
+  background: rgba(0, 0, 0, 0.8);
+}
 
 .floor-main-area.d1 {
   top: 16.2%;
   left: 6.1%;
   z-index: 9;
-  height: 33.5%;
+  height: 32.5%;
   width: 12.5%;
 }
 .floor-main-area.d2 {
@@ -1131,20 +1171,33 @@ main ul {
   top: 16.5%;
   left: 47%;
   z-index: 9;
-  height: 31.6%;
+  height: 32%;
   width: 6.1%;
 }
 .floor-main-area.d4::before {
   content: "";
-  width: 107%;
+  width: 104%;
   height: 56.2%;
   background: rgba(0, 0, 0, 0.3);
-  left: -107%;
+  left: -104%;
   position: absolute;
   transition: 0.3s;
 }
 
 .floor-main-area.d4:hover::before {
+  background: rgba(0, 0, 0, 0.8);
+}
+.floor-main-area.d4::after {
+  content: "";
+  width: 6%;
+  height: 34.2%;
+  background: rgba(0, 0, 0, 0.3);
+  left: -110%;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.floor-main-area.d4:hover::after {
   background: rgba(0, 0, 0, 0.8);
 }
 .floor-main-area.d5 {
@@ -1185,11 +1238,11 @@ main ul {
 .floor-main-area.d9::before {
   content: "";
   width: 23%;
-  height: 26%;
+  height: 26.5%;
   background: white;
   right: 0;
   position: absolute;
-  top: 1%;
+  top: 2%;
   transition: 0.3s;
 }
 .floor-main-area.d10 {
@@ -1237,6 +1290,9 @@ main ul {
   top: -55%;
   transition: 0.3s;
 }
+.floor-main-area.d14:hover::before {
+  background: rgba(0, 0, 0, 0.8);
+}
 .floor-main-area.e1 {
   top: 18%;
   left: 7.1%;
@@ -1256,7 +1312,7 @@ main ul {
   left: 28.6%;
   z-index: 9;
   height: 31%;
-  width: 5.8%;
+  width: 6%;
 }
 .floor-main-area.e4 {
   top: 17.5%;
@@ -1267,15 +1323,26 @@ main ul {
 }
 .floor-main-area.e4::before {
   content: "";
-  width: 107%;
+  width: 103%;
   height: 56.2%;
+  background: rgba(0, 0, 0, 0.3);
+  left: -103%;
+  position: absolute;
+  transition: 0.3s;
+}
+.floor-main-area.e4:hover::before {
+  background: rgba(0, 0, 0, 0.8);
+}
+.floor-main-area.e4::after {
+  content: "";
+  width: 5%;
+  height: 34.2%;
   background: rgba(0, 0, 0, 0.3);
   left: -107%;
   position: absolute;
   transition: 0.3s;
 }
-
-.floor-main-area.e4:hover::before {
+.floor-main-area.e4:hover::after {
   background: rgba(0, 0, 0, 0.8);
 }
 .floor-main-area.e5 {
@@ -1307,7 +1374,7 @@ main ul {
   width: 5.7%;
 }
 .floor-main-area.e9 {
-  top: 48.6%;
+  top: 49.2%;
   left: 7.1%;
   z-index: 9;
   height: 31.5%;
@@ -1316,11 +1383,11 @@ main ul {
 .floor-main-area.e9::before {
   content: "";
   width: 23%;
-  height: 26%;
+  height: 26.6%;
   background: white;
   right: 0;
   position: absolute;
-  top: 1%;
+  top: 0%;
   transition: 0.3s;
 }
 .floor-main-area.e10 {
@@ -1368,6 +1435,9 @@ main ul {
   top: -55%;
   transition: 0.3s;
 }
+.floor-main-area.e14:hover::before {
+  background: rgba(0, 0, 0, 0.8);
+}
 .floor-main-area.f1 {
   top: 15.5%;
   left: 8.1%;
@@ -1398,15 +1468,28 @@ main ul {
 }
 .floor-main-area.f4::before {
   content: "";
-  width: 107%;
+  width: 105%;
   height: 56.2%;
   background: rgba(0, 0, 0, 0.3);
-  left: -107%;
+  left: -105%;
   position: absolute;
   transition: 0.3s;
 }
 
 .floor-main-area.f4:hover::before {
+  background: rgba(0, 0, 0, 0.8);
+}
+.floor-main-area.f4::after {
+  content: "";
+  width: 5%;
+  height: 33.2%;
+  background: rgba(0, 0, 0, 0.3);
+  left: -110%;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.floor-main-area.f4:hover::after {
   background: rgba(0, 0, 0, 0.8);
 }
 .floor-main-area.f5 {
@@ -1447,11 +1530,11 @@ main ul {
 .floor-main-area.f9::before {
   content: "";
   width: 23%;
-  height: 26%;
+  height: 26.5%;
   background: white;
   right: 0;
   position: absolute;
-  top: 1%;
+  top: 0%;
   transition: 0.3s;
 }
 .floor-main-area.f10 {
@@ -1499,6 +1582,9 @@ main ul {
   top: -55%;
   transition: 0.3s;
 }
+.floor-main-area.f14:hover::before {
+  background: rgba(0, 0, 0, 0.8);
+}
 .floor-main-area.g1 {
   top: 15.5%;
   left: 7.1%;
@@ -1529,15 +1615,28 @@ main ul {
 }
 .floor-main-area.g4::before {
   content: "";
-  width: 107%;
+  width: 103%;
   height: 56.2%;
   background: rgba(0, 0, 0, 0.3);
-  left: -107%;
+  left: -102%;
   position: absolute;
   transition: 0.3s;
 }
 
 .floor-main-area.g4:hover::before {
+  background: rgba(0, 0, 0, 0.8);
+}
+.floor-main-area.g4::after {
+  content: "";
+  width: 6%;
+  height: 33.2%;
+  background: rgba(0, 0, 0, 0.3);
+  left: -108%;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.floor-main-area.g4:hover::after {
   background: rgba(0, 0, 0, 0.8);
 }
 .floor-main-area.g5 {
@@ -1577,8 +1676,8 @@ main ul {
 }
 .floor-main-area.g9::before {
   content: "";
-  width: 23%;
-  height: 26%;
+  width: 26%;
+  height: 26.5%;
   background: white;
   right: 0;
   position: absolute;
