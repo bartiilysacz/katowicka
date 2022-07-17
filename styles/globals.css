@@ -568,6 +568,10 @@ header {
   transition: 0.3s;
 }
 
+.lokal-wrapper .left button a { 
+  display: block;
+}
+
 .description {
   padding: 0 50px;
   width: 100%;

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { SRLWrapper } from "simple-react-lightbox";
 import { sbEditable } from "@storyblok/storyblok-editable";
 import Navbar from "./custom/Navbar";
@@ -6,28 +6,22 @@ import Footer from "./custom/Footer";
 import Link from "next/link";
 
 const Lokal = ({ blok }) => {
-  const [width, setWidth] = useState(false);
-
-  useEffect(() => {
-    window && window.addEventListener('resize', ()=> {
-      setWidth(window.innerWidth)
-    })
-  }, [])
-
   console.log(blok);
   return (
     <div className="lokal" {...sbEditable(blok)}>
       <Navbar />
       <div
         className="hero"
-        style={{ backgroundImage: `url(${blok.zdj_w_tle?.filename ? blok.zdj_w_tle.filename : blok.galeria[0].filename}/m/${width}x0)` }}
+        style={{ backgroundImage: `url(${blok.zdj_w_tle?.filename ? blok.zdj_w_tle.filename : blok.galeria[0].filename}/m/1920x0)` }}
       >
         <div className="lokal-wrapper">
           <div className="left">
             <h2>{blok.nazwa}</h2>
             <p>Powierzchnia: {blok.powierzchnia} ㎡</p>
             <button>
-              <Link href="/kontakt">Kontakt</Link>
+              <a>
+                <Link href="/kontakt">Kontakt</Link>
+              </a>
             </button>
           </div>
           <div className="right">
