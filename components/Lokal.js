@@ -35,7 +35,7 @@ const Lokal = ({ blok }) => {
               {blok.galeria.map((item, index) => (
                 <div className="image-wrapper">
                   <a href={item.filename} key={index}>
-                    <img src={item.filename ? `${item.filename}/m/120x120` : } alt="" />
+                    <img src={`${item.filename}/m/120x120`} alt="" />
                   </a>
                 </div>
               ))}
