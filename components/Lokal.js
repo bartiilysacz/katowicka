@@ -20,7 +20,7 @@ const Lokal = ({ blok }) => {
       <Navbar />
       <div
         className="hero"
-        style={{ backgroundImage: `url(${blok.zdj_w_tle.filename || blok.galeria[0].filename}/m/${width}x0)` }}
+        style={{ backgroundImage: `url(${blok.zdj_w_tle?.filename ? blok.zdj_w_tle.filename : blok.galeria[0].filename}/m/${width}x0)` }}
       >
         <div className="lokal-wrapper">
           <div className="left">
