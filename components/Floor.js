@@ -33,7 +33,7 @@ const Floor = () => {
             />
             <div className="floor-main-area a1" onClick={() => handleButtonClick(1)}><span>Zobacz <br/>szczegóły</span></div>
             <div className="floor-main-area a2" onClick={() => handleButtonClick(2)}><span>Zobacz <br/>szczegóły</span></div>
-            <div className="floor-main-area a3" onClick={() => handleButtonClick(3)}><span>Zobacz <br/>szczegóły</span></div>
+            <div className="floor-main-area a3" onClick={() => handleButtonClick(3)}><div/><span>Zobacz <br/>szczegóły</span></div>
             <div className="floor-main-area a4" onClick={() => handleButtonClick(4)}><span>Zobacz <br/>szczegóły</span></div>
             <div className="floor-main-area a5" onClick={() => handleButtonClick(5)}><span>Zobacz <br/>szczegóły</span></div>
             <div className="floor-main-area a6" onClick={() => handleButtonClick(6)}><span>Zobacz <br/>szczegóły</span></div>
@@ -55,7 +55,7 @@ const Floor = () => {
             />
             <div className="floor-main-area b1" onClick={() => handleButtonClick(1)}><span>Zobacz <br/>szczegóły</span></div>
             <div className="floor-main-area b2" onClick={() => handleButtonClick(2)}><span>Zobacz <br/>szczegóły</span></div>
-            <div className="floor-main-area b3" onClick={() => handleButtonClick(3)}><span>Zobacz <br/>szczegóły</span></div>
+            <div className="floor-main-area b3" onClick={() => handleButtonClick(3)}><div/><span>Zobacz <br/>szczegóły</span></div>
             <div className="floor-main-area b4" onClick={() => handleButtonClick(4)}><span>Zobacz <br/>szczegóły</span></div>
             <div className="floor-main-area b5" onClick={() => handleButtonClick(5)}><span>Zobacz <br/>szczegóły</span></div>
             <div className="floor-main-area b6" onClick={() => handleButtonClick(6)}><span>Zobacz <br/>szczegóły</span></div>
@@ -77,7 +77,7 @@ const Floor = () => {
             />
             <div className="floor-main-area c1" onClick={() => handleButtonClick(1)}><span>Zobacz szczegóły</span></div>
             <div className="floor-main-area c2" onClick={() => handleButtonClick(2)}><span>Zobacz szczegóły</span></div>
-            <div className="floor-main-area c3" onClick={() => handleButtonClick(3)}><span>Zobacz szczegóły</span></div>
+            <div className="floor-main-area c3" onClick={() => handleButtonClick(3)}><div/><span>Zobacz szczegóły</span></div>
             <div className="floor-main-area c4" onClick={() => handleButtonClick(4)}><span>Zobacz szczegóły</span></div>
             <div className="floor-main-area c5" onClick={() => handleButtonClick(5)}><span>Zobacz szczegóły</span></div>
             <div className="floor-main-area c6" onClick={() => handleButtonClick(6)}><span>Zobacz szczegóły</span></div>
@@ -99,7 +99,7 @@ const Floor = () => {
             />
             <div className="floor-main-area d1" onClick={() => handleButtonClick(1)}><span>Zobacz szczegóły</span></div>
             <div className="floor-main-area d2" onClick={() => handleButtonClick(2)}><span>Zobacz szczegóły</span></div>
-            <div className="floor-main-area d3" onClick={() => handleButtonClick(3)}><span>Zobacz szczegóły</span></div>
+            <div className="floor-main-area d3" onClick={() => handleButtonClick(3)}><div/><span>Zobacz szczegóły</span></div>
             <div className="floor-main-area d4" onClick={() => handleButtonClick(4)}><span>Zobacz szczegóły</span></div>
             <div className="floor-main-area d5" onClick={() => handleButtonClick(5)}><span>Zobacz szczegóły</span></div>
             <div className="floor-main-area d6" onClick={() => handleButtonClick(6)}><span>Zobacz szczegóły</span></div>
@@ -121,7 +121,7 @@ const Floor = () => {
             />
             <div className="floor-main-area e1" onClick={() => handleButtonClick(1)}><span>Zobacz szczegóły</span></div>
             <div className="floor-main-area e2" onClick={() => handleButtonClick(2)}><span>Zobacz szczegóły</span></div>
-            <div className="floor-main-area e3" onClick={() => handleButtonClick(3)}><span>Zobacz szczegóły</span></div>
+            <div className="floor-main-area e3" onClick={() => handleButtonClick(3)}><div/><span>Zobacz szczegóły</span></div>
             <div className="floor-main-area e4" onClick={() => handleButtonClick(4)}><span>Zobacz szczegóły</span></div>
             <div className="floor-main-area e5" onClick={() => handleButtonClick(5)}><span>Zobacz szczegóły</span></div>
             <div className="floor-main-area e6" onClick={() => handleButtonClick(6)}><span>Zobacz szczegóły</span></div>
@@ -143,7 +143,7 @@ const Floor = () => {
             />
             <div className="floor-main-area f1" onClick={() => handleButtonClick(1)}><span>Zobacz szczegóły</span></div>
             <div className="floor-main-area f2" onClick={() => handleButtonClick(2)}><span>Zobacz szczegóły</span></div>
-            <div className="floor-main-area f3" onClick={() => handleButtonClick(3)}><span>Zobacz szczegóły</span></div>
+            <div className="floor-main-area f3" onClick={() => handleButtonClick(3)}><div/><span>Zobacz szczegóły</span></div>
             <div className="floor-main-area f4" onClick={() => handleButtonClick(4)}><span>Zobacz szczegóły</span></div>
             <div className="floor-main-area f5" onClick={() => handleButtonClick(5)}><span>Zobacz szczegóły</span></div>
             <div className="floor-main-area f6" onClick={() => handleButtonClick(6)}><span>Zobacz szczegóły</span></div>

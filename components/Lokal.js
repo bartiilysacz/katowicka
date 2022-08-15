@@ -12,29 +12,37 @@ const Lokal = ({ blok }) => {
       <Navbar />
       <div
         className="hero"
-        style={{ backgroundImage: `url(${blok.zdj_w_tle?.filename ? blok.zdj_w_tle.filename : blok.galeria[0].filename}/m/1920x0)` }}
+        style={{
+          backgroundImage: `url(${
+            blok.zdj_w_tle?.filename
+              ? blok.zdj_w_tle.filename
+              : blok.galeria[0].filename
+          }/m/1920x0)`,
+        }}
       >
-        <div className="lokal-wrapper">
-          <div className="left">
-            <h2>{blok.nazwa}</h2>
-            <p>Powierzchnia: {blok.powierzchnia} ㎡</p>
-            <button>
-              <a>
-                <Link href="/kontakt">Kontakt</Link>
-              </a>
-            </button>
-          </div>
-          <div className="right">
-            <SRLWrapper>
-              {blok.galeria.map((item, index) => (
-                <div className="image-wrapper">
-                  <a href={item.filename} key={index}>
-                    <img src={`${item.filename}/m/120x120`} alt="" />
-                  </a>
-                </div>
-              ))}
-            </SRLWrapper>
-          </div>
+        <h2>{blok.nazwa}</h2>
+      </div>
+      <div className="lokal-wrapper">
+        <div className="left">
+          <h2>Karta lokalu</h2>
+          <img src={blok?.karta?.filename} alt="karta lokalu" />
+        </div>
+        <div className="right">
+          <h2>Galeria</h2>
+          <SRLWrapper>
+            {blok.galeria.map((item, index) => (
+              <div className="image-wrapper">
+                <a href={item.filename} key={index}>
+                  <img src={`${item.filename}/m/120x120`} alt="" />
+                </a>
+              </div>
+            ))}
+          </SRLWrapper>
+          <button>
+            <a>
+              <Link href="/kontakt">Skontaktuj się z nami</Link>
+            </a>
+          </button>
         </div>
       </div>
       <Footer hidden />

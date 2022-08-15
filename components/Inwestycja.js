@@ -14,7 +14,7 @@ const Kontakt = () => {
         className="hero"
         style={{ backgroundImage: `url(${image.src})` }}
       ></div>
-      <main className="container about-text inw-columns">
+      <main className="container about-text about-columns inw-columns">
         <h2>O inwestycji</h2>
         <div className="row">
           <div className="col">
@@ -33,7 +33,7 @@ const Kontakt = () => {
           <div className="col">
             <h3>Budynek ma 7 kondygnacji.</h3>
             <p>
-              W ofercie są apartamenty o powierzchni od 17m2 do 36m2. . Lokale
+              W ofercie są apartamenty o powierzchni od 17m2 do 36m2. Lokale
               usytuowane na parterze mają również balkony.<br /> W całym budynku
               znajdziemy:
               <ul>
@@ -51,7 +51,7 @@ const Kontakt = () => {
           </div>
           <div className="col">
             <h3>Dodatkowo:</h3>
-            <ul>
+            <ul className="main-list">
               <li>wszystkie mieszkania posiadają indywidualną klimatyzację,</li>
               <li>
                 lokale zasilane są w media z sieci miejskiej z pełnym

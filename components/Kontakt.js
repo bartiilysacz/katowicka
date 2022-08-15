@@ -5,6 +5,7 @@ import Navbar from "./custom/Navbar";
 import Footer from "./custom/Footer";
 import image from "./img/glowna-3.jpg";
 import mail from "./img/mail.png";
+import phone from "./img/call.png";
 
 const Kontakt = () => {
   const [isFromSent, setFormSent] = useState(false);
@@ -18,16 +19,11 @@ const Kontakt = () => {
         className="hero"
         style={{ backgroundImage: `url(${image.src})` }}
       ></div>
-      <main className="container about-text">
-        <h2>Kontakt</h2>
+      <main className="container contact about-text">
         <div className="row">
           <div className="col">
-            <h3>Leszek Bagnicki</h3>
-            <p>tel. 692-445-674</p>
-          </div>
-          <div className="col">
-            <h3>Joanna Idzi</h3>
-            <p>tel. 692-445-670</p>
+            <img src={phone.src} className="email-image" alt="" />
+            <p>tel. 510-141-380</p>
           </div>
           <div className="col">
             <img src={mail.src} className="email-image" alt="" />
@@ -50,12 +46,12 @@ const Kontakt = () => {
           }}
           onSubmit={(values, { setSubmitting }) => {
             setTimeout(() => {
-              fetch('/api/mail', {
-                method: 'POST',
+              fetch("/api/mail", {
+                method: "POST",
                 body: JSON.stringify(values),
               })
-                .then(response => response.json())
-                .then(data => data.status === 'Ok' && setFormSent(true));
+                .then((response) => response.json())
+                .then((data) => data.status === "Ok" && setFormSent(true));
 
               setSubmitting(false);
             }, 400);
@@ -98,10 +94,20 @@ const Kontakt = () => {
                   placeholder="Wpisz swoją wiadomość"
                 />
               </div>
-              <button type="submit" className="send-button" disabled={isSubmitting}>
-                Wyślij
-              </button>
-              {isFromSent && <p className="sent-message">Wiadomość została wysłana. Dziękujemy!</p>}
+              <div className="form-row">
+                <button
+                  type="submit"
+                  className="send-button"
+                  disabled={isSubmitting}
+                >
+                  Wyślij
+                </button>
+              </div>
+              {isFromSent && (
+                <p className="sent-message">
+                  Wiadomość została wysłana. Dziękujemy!
+                </p>
+              )}
             </form>
           )}
         </Formik>

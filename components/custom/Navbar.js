@@ -31,6 +31,16 @@ const Navbar = () => (
             <Link href="/wykonczenie">
               <a>Wykończenie pod klucz</a>
             </Link>
+          </div>
+        </li>
+        <li className="dropdown">
+          <Link href="/dla-inwestora">
+            <a>Dla inwestora</a>
+          </Link>
+          <div className="dropdown-content">
+            <Link href="/inwestycje">
+              <a>Inwestycje</a>
+            </Link>
             <Link href="/vat">
               <a>Zwrot VAT</a>
             </Link>

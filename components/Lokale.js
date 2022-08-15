@@ -18,21 +18,21 @@ const Kontakt = () => {
         <h2>Lokale</h2>
         <table>
           <tr>
-            <td>1. stolarka okienna</td>
+            <td>1. drzwi wejściowe</td>
+            <td>
+              <p>
+                drzwi wejściowe antywłamaniowe, ognioodporne w klasie EI30,
+                antracytowe
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>2. stolarka okienna</td>
             <td>
               <p>
                 stolarka okienna PCV biała, używana po kompleksowym serwisie,
                 obejmującym niezbędną wymianę uszczelek, regulację okuć, wymianę
                 klamek oraz osłon zawiasów
-              </p>
-            </td>
-          </tr>
-          <tr>
-            <td>2. drzwi wejściowe</td>
-            <td>
-              <p>
-                drzwi wejściowe antywłamaniowe, ognioodporne w klasie EI30,
-                antracytowe
               </p>
             </td>
           </tr>

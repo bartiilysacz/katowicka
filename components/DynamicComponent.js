@@ -12,6 +12,7 @@ import Lokalizacja from "./Lokalizacja";
 import Lokale from "./Lokale";
 import Wykonczenie from "./Wykonczenie";
 import Vat from "./Vat";
+import Inwestycje from "./Inwestycje";
 
 // resolve Storyblok components to Next.js components
 const Components = {
@@ -29,6 +30,7 @@ const Components = {
   lokale: Lokale,
   wykonczenie: Wykonczenie,
   vat: Vat,
+  inwestycje: Inwestycje
 };
 
 const DynamicComponent = ({ blok }) => {
