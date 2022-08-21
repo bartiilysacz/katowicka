@@ -7,7 +7,7 @@ const Kontakt = () => {
   return (
     <div>
       <Head>
-        <title>Katowicka 39 - o inwestycji</title>
+        <title>Katowicka 39 - zwrot VAT</title>
       </Head>
       <Navbar />
       <div

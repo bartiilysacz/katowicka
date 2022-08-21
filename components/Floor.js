@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import { useRouter } from "next/router";
 import Navbar from "./custom/Navbar";
 import Footer from "./custom/Footer";
@@ -22,6 +23,9 @@ const Floor = () => {
 
   return (
     <div>
+      <Head>
+        <title>Katowicka 39 - piętro {Number(currentFloor.replace("pietro-", ""))}</title>
+      </Head>
       <Navbar />
       <main className="floor-main">
         <div className="floor-main-wrapper">
