@@ -780,7 +780,7 @@ main ul {
 }
 .floor-main-area.a4 {
   top: 13%;
-  left: 44.5%;
+  left: 44.6%;
   z-index: 9;
   height: 30.5%;
   width: 5.7%;
@@ -1776,18 +1776,245 @@ main ul {
 .floor-main-area.a3 > div {
   background: rgba(0, 0, 0, 0.3);
   position: absolute;
-  left: 100%;
-  width: 82%;
+  left: 94%;
+  width: 73%;
   height: 51%;
+  transition: 0.3s;
 }
 
 .floor-main-area.a3 > div::before {
-  content: '';
+  content: "";
   background: rgba(0, 0, 0, 0.3);
   position: absolute;
   left: 100%;
-  width: 82%;
+  width: 19%;
+  height: 169%;
+  transition: 0.3s;
+}
+
+.floor-main-area.a3 > div > div {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 140%;
+  width: 42%;
+  height: 59%;
+  bottom: -67%;
+  transition: 0.3s;
+}
+
+.floor-main-area.a3 > div::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 21%;
+  height: 100%;
+  left: 119%;
+  bottom: -67%;
+  transition: 0.3s;
+}
+
+.floor-main-area.a3:hover > div,
+.floor-main-area.a3:hover > div::before,
+.floor-main-area.a3:hover > div > div,
+.floor-main-area.a3:hover > div::after {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.floor-main-area.b3 > div {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 95%;
+  width: 69%;
   height: 51%;
+  top: 1%;
+  transition: 0.3s;
+}
+
+.floor-main-area.b3 > div::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 100%;
+  width: 19%;
+  height: 169%;
+  transition: 0.3s;
+}
+
+.floor-main-area.b3 > div > div {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 140%;
+  width: 42%;
+  height: 59%;
+  bottom: -69%;
+  transition: 0.3s;
+}
+
+.floor-main-area.b3 > div::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 21%;
+  height: 100%;
+  left: 119%;
+  bottom: -68%;
+  transition: 0.3s;
+}
+
+.floor-main-area.b3:hover > div,
+.floor-main-area.b3:hover > div::before,
+.floor-main-area.b3:hover > div > div,
+.floor-main-area.b3:hover > div::after {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.floor-main-area.c3 > div {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 99%;
+  width: 73%;
+  height: 51%;
+  top: 1%;
+  transition: 0.3s;
+}
+
+.floor-main-area.c3 > div::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 100%;
+  width: 19%;
+  height: 169%;
+  transition: 0.3s;
+}
+
+.floor-main-area.c3 > div > div {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 140%;
+  width: 42%;
+  height: 59%;
+  bottom: -69%;
+  transition: 0.3s;
+}
+
+.floor-main-area.c3 > div::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 21%;
+  height: 103%;
+  left: 119%;
+  bottom: -68%;
+  transition: 0.3s;
+}
+
+.floor-main-area.c3:hover > div,
+.floor-main-area.c3:hover > div::before,
+.floor-main-area.c3:hover > div > div,
+.floor-main-area.c3:hover > div::after {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.floor-main-area.d3 > div {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 99%;
+  width: 61%;
+  height: 51%;
+  top: 1%;
+  transition: 0.3s;
+}
+
+.floor-main-area.d3 > div::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 100%;
+  width: 21%;
+  height: 169%;
+  transition: 0.3s;
+}
+
+.floor-main-area.d3 > div > div {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 146%;
+  width: 42%;
+  height: 59%;
+  bottom: -69%;
+  transition: 0.3s;
+}
+
+.floor-main-area.d3 > div::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 25%;
+  height: 103%;
+  left: 121%;
+  bottom: -68%;
+  transition: 0.3s;
+}
+
+.floor-main-area.d3:hover > div,
+.floor-main-area.d3:hover > div::before,
+.floor-main-area.d3:hover > div > div,
+.floor-main-area.d3:hover > div::after {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.floor-main-area.e3 > div {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 99%;
+  width: 71%;
+  height: 51%;
+  top: 1%;
+  transition: 0.3s;
+}
+
+.floor-main-area.e3 > div::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 100%;
+  width: 21%;
+  height: 169%;
+  transition: 0.3s;
+}
+
+.floor-main-area.e3 > div > div {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 146%;
+  width: 42%;
+  height: 59%;
+  bottom: -69%;
+  transition: 0.3s;
+}
+
+.floor-main-area.e3 > div::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 25%;
+  height: 103%;
+  left: 121%;
+  bottom: -68%;
+  transition: 0.3s;
+}
+
+.floor-main-area.e3:hover > div,
+.floor-main-area.e3:hover > div::before,
+.floor-main-area.e3:hover > div > div,
+.floor-main-area.e3:hover > div::after {
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .form-row {
@@ -1885,4 +2112,16 @@ main ul {
 
 .main-list {
   padding-left: 20px;
+}
+.indicator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.indicator span {
+  margin-right: 13px;
+  font-weight: 600;
+}
+.indicator-top span {
+  margin-bottom: 10px;
 }
