@@ -32,7 +32,7 @@ const Lokal = ({ blok }) => {
           <SRLWrapper>
             {blok.galeria.map((item, index) => (
               <div className="image-wrapper">
-                <a href={item.filename} key={index}>
+                <a href={`${item.filename}/m/1920x0`} key={index}>
                   <img src={`${item.filename}/m/120x120`} alt="" />
                 </a>
               </div>

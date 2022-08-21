@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div>
       <Head>
-        <title>Katowicka 39 - wybór lokalu</title>
+        <title>Katowicka 39 - apartamenty | strona główna</title>
       </Head>
       <Navbar />
       <main>
