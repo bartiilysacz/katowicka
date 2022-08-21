@@ -28,6 +28,7 @@ const Kontakt = () => {
           <li>dwukrotnie pomalowany lokal</li>
           <li>położone panele podłogowewraz z listwami przypodłogowymi</li>
         </ul>
+        <a href="/katalog.pdf" download className="btn">Pobierz katalog</a>
       </main>
       <Footer />
     </div>

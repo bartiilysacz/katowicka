@@ -2125,3 +2125,15 @@ main ul {
 .indicator-top span {
   margin-bottom: 10px;
 }
+
+a.btn {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 25px;
+  display: inline-block;
+}
