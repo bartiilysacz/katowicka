@@ -45,7 +45,7 @@ const Lokal = ({ blok }) => {
           </button>
         </div>
       </div>
-      <Footer hidden />
+      <Footer />
     </div>
   );
 };
