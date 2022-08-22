@@ -2147,7 +2147,7 @@ a.btn {
   transition: 0.4s;
 }
 
-.lokal-wrapper .right button:hover, .send-button:hover, a.btn {
+.lokal-wrapper .right button:hover, .send-button:hover, a.btn:hover {
   background-color: #000;
   color: #fff;
 }
