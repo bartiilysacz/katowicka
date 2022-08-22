@@ -34,7 +34,7 @@ const Navbar = () => (
           </div>
         </li>
         <li className="dropdown">
-          <Link href="/dla-inwestora">
+          <Link href="#">
             <a>Dla inwestora</a>
           </Link>
           <div className="dropdown-content">
