@@ -2214,3 +2214,14 @@ a.btn {
   background-color: #000;
   color: #fff;
 }
+
+.floor-indicator {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 55px;
+  font-weight: 900;
+}

@@ -1,9 +1,12 @@
+import { useState } from 'react';
 import Head from 'next/head';
 import { useRouter } from "next/router";
 import Navbar from "./custom/Navbar";
 import Footer from "./custom/Footer";
 
 const Floor = () => {
+  const [loading, setLoading] = useState(false);
+  const [presentedFloor, setPresentedFloor] = useState(null);
   const router = useRouter();
   const currentFloor = router.query.slug.toString();
 
@@ -11,14 +14,23 @@ const Floor = () => {
     router.push(`/lokal/lokal-${room}`);
   };
 
-  const handleChangeFloor = (direction) => {
+  const timeout = (delay) => {
+    return new Promise( res => setTimeout(res, delay) );
+  }
+
+  const handleChangeFloor = async (direction) => {
+    setLoading(true);
     const floor = Number(currentFloor.replace("pietro-", ""));
     if (direction === "up") {
+      setPresentedFloor(floor + 1);
       router.push(`/pietro-${floor + 1}`);
     }
     if (direction === "down") {
+      setPresentedFloor(floor - 1);
       router.push(`/pietro-${floor - 1}`);
     }
+    await timeout(3000);
+    setLoading(false);
   };
 
   return (
@@ -27,6 +39,7 @@ const Floor = () => {
         <title>Katowicka 39 - piętro {Number(currentFloor.replace("pietro-", ""))}</title>
       </Head>
       <Navbar />
+      {!loading ? (
       <main className="floor-main">
         <div className="floor-main-wrapper">
           {currentFloor === "pietro-0" && (
@@ -756,6 +769,7 @@ const Floor = () => {
           )}
         </div>
       </main>
+      ) : <div className="floor-indicator">Piętro {presentedFloor}</div>}
       <div className="floor-up-down">
         {currentFloor !== "pietro-6" && (
           <div className="indicator indicator-top">
