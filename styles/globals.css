@@ -1308,10 +1308,10 @@ main ul {
   left: 59.5%;
   z-index: 9;
   height: 23.5%;
-  width: 12.5%;
+  width: 12.6%;
 }
 .floor-main-area.d13 {
-  top: 57.7%;
+  top: 58%;
   left: 72.1%;
   z-index: 9;
   height: 23.5%;
@@ -1391,7 +1391,7 @@ main ul {
 }
 .floor-main-area.e5 {
   top: 18%;
-  left: 53%;
+  left: 52.9%;
   z-index: 9;
   height: 31%;
   width: 9.1%;
@@ -1508,7 +1508,7 @@ main ul {
   left: 46.1%;
   z-index: 9;
   height: 34.5%;
-  width: 5.6%;
+  width: 5.7%;
 }
 .floor-main-area.f4::before {
   content: "";
@@ -1525,10 +1525,10 @@ main ul {
 }
 .floor-main-area.f4::after {
   content: "";
-  width: 5%;
+  width: 7%;
   height: 33.2%;
   background: rgba(0, 0, 0, 0.3);
-  left: -110%;
+  left: -112%;
   position: absolute;
   transition: 0.3s;
 }
@@ -1610,15 +1610,15 @@ main ul {
   width: 11.8%;
 }
 .floor-main-area.f14 {
-  top: 59.9%;
-  left: 81%;
+  top: 60.1%;
+  left: 81.1%;
   z-index: 9;
   height: 25%;
   width: 8.5%;
 }
 .floor-main-area.f14::before {
   content: "";
-  width: 35.4%;
+  width: 35.6%;
   height: 55%;
   background: rgba(0, 0, 0, 0.3);
   right: 0;
@@ -1881,7 +1881,7 @@ main ul {
   left: 99%;
   width: 73%;
   height: 51%;
-  top: 1%;
+  top: 0;
   transition: 0.3s;
 }
 
@@ -1899,7 +1899,7 @@ main ul {
   content: "";
   background: rgba(0, 0, 0, 0.3);
   position: absolute;
-  left: 140%;
+  left: 141%;
   width: 42%;
   height: 59%;
   bottom: -69%;
@@ -1910,7 +1910,7 @@ main ul {
   content: "";
   background: rgba(0, 0, 0, 0.3);
   position: absolute;
-  width: 21%;
+  width: 22%;
   height: 103%;
   left: 119%;
   bottom: -68%;
@@ -1979,7 +1979,7 @@ main ul {
   left: 99%;
   width: 71%;
   height: 51%;
-  top: 1%;
+  top: 0;
   transition: 0.3s;
 }
 
@@ -2019,6 +2019,55 @@ main ul {
 .floor-main-area.e3:hover > div::before,
 .floor-main-area.e3:hover > div > div,
 .floor-main-area.e3:hover > div::after {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.floor-main-area.f3 > div {
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 99%;
+  width: 71%;
+  height: 51%;
+  top: 1%;
+  transition: 0.3s;
+}
+
+.floor-main-area.f3 > div::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 100%;
+  width: 21%;
+  height: 169%;
+  transition: 0.3s;
+}
+
+.floor-main-area.f3 > div > div {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 146%;
+  width: 42%;
+  height: 59%;
+  bottom: -69%;
+  transition: 0.3s;
+}
+
+.floor-main-area.f3 > div::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 25%;
+  height: 103%;
+  left: 121%;
+  bottom: -68%;
+  transition: 0.3s;
+}
+
+.floor-main-area.f3:hover > div,
+.floor-main-area.f3:hover > div::before,
+.floor-main-area.f3:hover > div > div,
+.floor-main-area.f3:hover > div::after {
   background: rgba(0, 0, 0, 0.8);
 }
 
