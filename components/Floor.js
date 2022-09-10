@@ -776,7 +776,7 @@ const Floor = () => {
             <span>Piętro wyżej</span>
             <div
               className="icon icon-up"
-              onClick={() => handleChangeFloor("up")}
+              onClick={async () => handleChangeFloor("up")}
             >
               <img src="/icon-up.png" alt="" />
             </div>
