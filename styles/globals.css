@@ -480,6 +480,7 @@ header {
   height: 100%;
   opacity: 0;
   transition: 0.3s;
+  font-size: 13px;
 }
 
 .floor-main-area:hover span {
@@ -840,7 +841,20 @@ main ul {
   left: 77.1%;
   z-index: 9;
   height: 30.5%;
-  width: 9%;
+  width: 6%;
+}
+.floor-main-area.a8::before {
+  content: "";
+  width: 48.5%;
+  height: 58.5%;
+  background: rgba(0, 0, 0, 0.3);
+  right: -48.1%;
+  position: absolute;
+  top: 39.5%;
+  transition: 0.3s;
+}
+.floor-main-area.a8:hover::before {
+  background: rgba(0, 0, 0, 0.8);
 }
 .floor-main-area.a9 {
   top: 43.2%;
@@ -863,8 +877,8 @@ main ul {
   top: 51.9%;
   left: 18.1%;
   z-index: 9;
-  height: 21.5%;
-  width: 14.8%;
+  height: 21.8%;
+  width: 14.5%;
 }
 .floor-main-area.a11 {
   top: 51.9%;
