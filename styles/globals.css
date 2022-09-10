@@ -106,7 +106,7 @@ header {
   transform: rotate(-0.6deg);
   cursor: pointer;
   background: rgba(0, 0, 0, 0.2);
-  transition: all 0.45s;
+  transition: all 0.3s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,7 +133,7 @@ header {
   background-color: #fff;
   color: #000;
   padding: 5px 10px;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
 .floor-4 {
@@ -145,7 +145,7 @@ header {
   transform: rotate(-0.6deg);
   cursor: pointer;
   background: rgba(0, 0, 0, 0.2);
-  transition: all 0.45s;
+  transition: all 0.3s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,7 +172,7 @@ header {
   background-color: #fff;
   color: #000;
   padding: 5px 10px;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
 .floor-3 {
@@ -184,7 +184,7 @@ header {
   transform: rotate(-0.6deg);
   cursor: pointer;
   background: rgba(0, 0, 0, 0.2);
-  transition: all 0.45s;
+  transition: all 0.3s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,7 +211,7 @@ header {
   background-color: #fff;
   color: #000;
   padding: 5px 10px;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
 .floor-2 {
@@ -223,7 +223,7 @@ header {
   transform: rotate(-0.6deg);
   cursor: pointer;
   background: rgba(0, 0, 0, 0.2);
-  transition: all 0.45s;
+  transition: all 0.3s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -250,7 +250,7 @@ header {
   background-color: #fff;
   color: #000;
   padding: 5px 10px;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
 .floor-1 {
@@ -262,7 +262,7 @@ header {
   transform: rotate(-0.6deg);
   cursor: pointer;
   background: rgba(0, 0, 0, 0.2);
-  transition: all 0.45s;
+  transition: all 0.3s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -289,7 +289,7 @@ header {
   background-color: #fff;
   color: #000;
   padding: 5px 10px;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
 .floor-0 {
@@ -301,7 +301,7 @@ header {
   transform: rotate(-0.6deg);
   cursor: pointer;
   background: rgba(0, 0, 0, 0.2);
-  transition: all 0.45s;
+  transition: all 0.3s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -328,7 +328,7 @@ header {
   background-color: #fff;
   color: #000;
   padding: 5px 10px;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
 .floor-6 {
@@ -367,7 +367,7 @@ header {
   background-color: #fff;
   color: #000;
   padding: 5px 10px;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
 .floor-6:hover,
@@ -377,7 +377,7 @@ header {
 .floor-2:hover,
 .floor-1:hover,
 .floor-0:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .floor-info {
@@ -393,7 +393,7 @@ header {
   align-items: center;
   flex-direction: column;
   z-index: 99;
-  border-radius: 6px 0 0 0;
+  border-radius: 2px 0 0 0;
 }
 
 .floor-info h2 {
