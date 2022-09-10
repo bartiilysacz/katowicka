@@ -778,7 +778,7 @@ const Floor = () => {
           )}
         </div>
       </main>
-      ) : <div className="floor-indicator">Piętro {presentedFloor}</div>}
+      ) : <div className="floor-indicator">{presentedFloor === 0 ? 'Parter' : `Piętro ${presentedFloor}`}</div>}
       <div className="floor-up-down">
         {currentFloor !== "pietro-6" && (
           <div className="indicator indicator-top">
