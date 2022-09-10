@@ -8,7 +8,7 @@ const Footer = ({ hidden, fixed, gradient }) => {
   return (
     <div className={fixed ? 'footer footer-fixed' : 'footer footer-static'}>
       <ul>
-        <li>Centrum biurowe Katowicka 39 2022 © All right reserved</li>
+        <li>Aprtamenty Katowicka 39 © 2022 All right reserved</li>
       </ul>
     </div>
   );
