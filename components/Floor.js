@@ -23,13 +23,14 @@ const Floor = () => {
     const floor = Number(currentFloor.replace("pietro-", ""));
     if (direction === "up") {
       setPresentedFloor(floor + 1);
+      await timeout(3000);
       router.push(`/pietro-${floor + 1}`);
     }
     if (direction === "down") {
       setPresentedFloor(floor - 1);
+      await timeout(3000);
       router.push(`/pietro-${floor - 1}`);
     }
-    await timeout(3000);
     setLoading(false);
   };
 
