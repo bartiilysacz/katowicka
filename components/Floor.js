@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Head from 'next/head';
 import { useRouter } from "next/router";
 import Navbar from "./custom/Navbar";
@@ -23,16 +23,24 @@ const Floor = () => {
     const floor = Number(currentFloor.replace("pietro-", ""));
     if (direction === "up") {
       setPresentedFloor(floor + 1);
-      await timeout(3000);
+      await timeout(1000);
       router.push(`/pietro-${floor + 1}`);
     }
     if (direction === "down") {
       setPresentedFloor(floor - 1);
-      await timeout(3000);
+      await timeout(1000);
       router.push(`/pietro-${floor - 1}`);
     }
-    setLoading(false);
   };
+
+  useEffect(() => {
+    const wait = async () => {
+      await timeout(1000);
+    }
+
+    wait();
+    setLoading(false);
+  }, []);
 
   return (
     <div>
