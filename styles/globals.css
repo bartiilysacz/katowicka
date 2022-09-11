@@ -2267,7 +2267,7 @@ a.btn {
   background: rgba(0, 0, 0, 0.9) !important;
 }
 
-main > div > div > div:nth-child(2) {
+main > div > div > div:nth-child(2):not(.indicator) {
   height: 90px;
   background: linear-gradient(rgb(0, 0, 0) 0, rgba(0, 0, 0, 0) 90px) no-repeat;
   position: absolute;
@@ -2351,5 +2351,8 @@ main > div > div > div:nth-child(2) {
   }
   .header-wrapper {
     background-position: center;
+  }
+  .floor-main {
+    min-height: 50vh;
   }
 }
