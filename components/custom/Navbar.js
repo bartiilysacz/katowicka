@@ -80,7 +80,16 @@ const Navbar = () => {
 
   return (
     isHamburgerMenu ?
-      <Menu isOpen={false} styles={ styles }>
+      <>
+      <Link href="/">
+        <a>
+          <img className="menu-mobile" src="/logo.png" alt="Katowicka 39 logo" />
+        </a>
+      </Link>
+      <Menu isOpen={false} styles={ styles } disableAutoFocus>
+        <Link href="/">
+          <a>Strona główna</a>
+        </Link>
         <Link href="/wybor-lokalu">
           <a>Wybór lokalu</a>
         </Link>
@@ -107,7 +116,8 @@ const Navbar = () => {
         <Link href="/kontakt">
           <a>Kontakt</a>
         </Link>
-      </Menu> : (
+      </Menu>
+      </> : (
     <div className="navbar">
       <div className="navbar-container">
         <Link href="/">

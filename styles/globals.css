@@ -2275,6 +2275,14 @@ main > div > div > div:nth-child(2) {
   width: 100%;
 }
 
+.menu-mobile {
+  max-width: 50px;
+  position: absolute;
+  z-index: 99999;
+  top: 20px;
+  left: 20px;
+}
+
 /* HOME RWD */
 @media(max-width: 1065px) {
   .navbar ul {
@@ -2340,5 +2348,8 @@ main > div > div > div:nth-child(2) {
     max-width: 50%;
     margin: auto;
     bottom: 15%;
+  }
+  .header-wrapper {
+    background-position: center;
   }
 }
