@@ -2235,8 +2235,7 @@ a.btn {
 }
 
 .bm-burger-button span span {
-  background-color: #fff;
-  z-index: 9999;
+  background-color: #fff !important;
   border-radius: 2px;
 }
 
