@@ -32,7 +32,7 @@ header {
 
 .navbar {
   position: absolute;
-  z-index: 9;
+  z-index: 9999;
   padding: 0 50px;
   width: 100%;
   height: 125px;
@@ -634,7 +634,7 @@ header {
 
 .contact-wrapper .column {
   position: absolute;
-  z-index: 99;
+  z-index: 999999;
   color: #000;
   background-color: #fff;
   bottom: 0;
@@ -2323,6 +2323,30 @@ main > div > div > div:nth-child(2):not(.indicator):not(.right) {
     margin-right: auto;
     display: block;
     margin-top: 50px;
+  }
+  .contact {
+    padding: 20px;
+  }
+  .contact .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact .row .col {
+    max-width: 100%;
+  }
+  .footer-static {
+    padding: 0;
+    justify-content: center;
+  }
+  .about-text {
+    padding: 20px;
+  }
+  .inw-columns .col {
+    padding: 10px;
+    max-width: 100%;
+  }
+  .inw-columns .row {
+    flex-direction: column;
   }
 }
 @media(max-width: 430px) {
