@@ -2348,6 +2348,9 @@ main > div > div > div:nth-child(2):not(.indicator):not(.right) {
   .inw-columns .row {
     flex-direction: column;
   }
+  .contact-wrapper .column {
+    display: none;
+  }
 }
 @media(max-width: 430px) {
   .footer ul {
