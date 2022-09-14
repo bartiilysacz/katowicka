@@ -2405,3 +2405,34 @@ main > div > div > div:nth-child(2):not(.indicator):not(.right):not(.mapboxgl-ca
     font-size: 8px;
   }
 }
+
+.floor-main-area.unavailable, 
+.floor-main-area.unavailable > div, 
+.floor-main-area.unavailable::before, 
+.floor-main-area.unavailable > div::after, 
+.floor-main-area.unavailable > div::before, 
+.floor-main-area.unavailable > div > div,
+.floor-main-area.unavailable:hover::before,
+.floor-main-area.unavailable:hover > div,
+.floor-main-area.unavailable:hover > div::before,
+.floor-main-area.unavailable:hover > div > div,
+.floor-main-area.unavailable:hover > div::after {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.floor-main-area.unavailable p {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-size: 13px;
+  margin: 0;
+}
+
+.floor-main-area.unavailable span {
+  display: none;
+}
