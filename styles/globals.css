@@ -2429,10 +2429,16 @@ main > div > div > div:nth-child(2):not(.indicator):not(.right):not(.mapboxgl-ca
   opacity: 1;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  font-size: 13px;
+  font-size: 11px;
   margin: 0;
 }
 
 .floor-main-area.unavailable span {
   display: none;
+}
+
+@media (max-width: 1000px) {
+  .floor-main-area.unavailable p {
+    display: none;
+  }
 }

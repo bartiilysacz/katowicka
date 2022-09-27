@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Head from "next/head";
 import { Formik } from "formik";
 import Navbar from "./custom/Navbar";
@@ -6,9 +6,23 @@ import Footer from "./custom/Footer";
 import image from "./img/glowna-3.jpg";
 import mail from "./img/mail.png";
 import phone from "./img/call.png";
+import emailjs from '@emailjs/browser';
 
 const Kontakt = () => {
+  const formikRef = useRef()
   const [isFromSent, setFormSent] = useState(false);
+
+  const sendEmail = (values) => {
+    emailjs.sendForm('service_kyl616k', 'template_2mabw5r', values, 'L1NcpDdx__lTvs0mS')
+      .then((result) => {
+        if (result.text === 'OK') {
+          setFormSent(true);
+        }
+      }, (error) => {
+        console.log(error.text);
+      });
+  }
+
   return (
     <div>
       <Head>
@@ -44,17 +58,14 @@ const Kontakt = () => {
             }
             return errors;
           }}
-          onSubmit={(values, { setSubmitting }) => {
+          onSubmit={(values) => {
             setTimeout(() => {
-              fetch("/api/mail", {
-                method: "POST",
-                body: JSON.stringify(values),
-              })
-                .then((response) => response.json())
-                .then((data) => data.status === "Ok" && setFormSent(true));
-
-              setSubmitting(false);
-            }, 400);
+              try {
+                sendEmail(formikRef.current)
+              } catch (error) {
+                console.log(error);
+              }
+            }, 1000)
           }}
         >
           {({
@@ -66,7 +77,7 @@ const Kontakt = () => {
             handleSubmit,
             isSubmitting,
           }) => (
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} ref={formikRef}>
               <div className="form-row">
                 <input
                   type="email"
