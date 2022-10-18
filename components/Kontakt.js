@@ -122,6 +122,8 @@ const Kontakt = () => {
             </form>
           )}
         </Formik>
+        <p style={{ marginTop: 60 }}>Aranżacje wnętrz przygotowala: Anna Morawiec-Malec</p>
+        <p>projekty@smdesign.com.pl</p>
       </main>
       <Footer />
     </div>
